@@ -96,4 +96,4 @@ def compute_spatial_correlation_mps(h_mat, scale=1, max_distance=None, distance_
     C_s /= torch.mean(h_flat ** 2)  # Normalize by the average squared magnitude
 
     # Transfer results back to CPU
-    return bin_centers.cpu().numpy(), C_s.cpu().numpy()
+    return bin_centers.cpu().numpy() * scale, C_s.cpu().numpy()
