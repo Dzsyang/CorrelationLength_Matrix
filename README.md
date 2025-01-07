@@ -1,2 +1,2 @@
-# CorrelationLength_Matrix
-Codes for calculating the Correlation Length of Matrices
+# Correlation of Matrices
+Codes for computing the correlation of matrices.
