@@ -93,4 +93,4 @@ def compute_spatial_correlation_cuda(h_mat, scale=1, max_distance=None, distance
     C_s /= cp.mean(h_flat ** 2)  # Normalize by the average squared magnitude
 
     # Transfer results back to CPU
-    return cp.asnumpy(bin_centers), cp.asnumpy(C_s)
+    return cp.asnumpy(bin_centers) * scale, cp.asnumpy(C_s)
