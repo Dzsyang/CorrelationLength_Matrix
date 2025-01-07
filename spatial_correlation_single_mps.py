@@ -1,7 +1,7 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# https://github.com/Dzsyang/CorrelationLength_Matrix
+# https://github.com/Dzsyang/correlation_matrix
 #
 # MIT License
 #
